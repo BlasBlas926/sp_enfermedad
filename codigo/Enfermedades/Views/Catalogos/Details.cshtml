@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"]="Details";
+}
+@model Catalogos
+<h2>Detalles categorias</h2>
+<div>
+    <h2>Nombre:@Model.Nombre</h2>
+    <h2>Descripcion:@Model.Descripcion</h2>
+    <h2>Fecha Registro:@Model.FechaRegistro</h2>
+    <h2>Fecha Incio:@Model.FechaInicio</h2>
+    <h2>Fecha Actualizacion:@Model.FechaActualizacion</h2>
+    <h2>Estado:@Model.Estado</h2>
+     <a asp-action="Index">Regresar</a>  
+     
+</div>
